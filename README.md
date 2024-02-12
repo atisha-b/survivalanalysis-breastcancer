@@ -37,3 +37,8 @@ Cox proportional hazards modeling to assess the association between treatment an
 The analysis reveals significant differences in survival probabilities between treatment groups.
 Chemotherapy is associated with improved recurrence-free survival, while hormonal therapy shows varying effects depending on patient characteristics.
 Cox proportional hazards model identifies treatment, age, and tumor characteristics as significant predictors of survival outcomes.
+
+To install dependencies:
+```bash
+Rscript -e 'install.packages(readLines("requirements.txt"))'
+
